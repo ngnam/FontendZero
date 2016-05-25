@@ -1,0 +1,68 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+#1	header
+#2	main
+
+
+--------------------------------------------------------------*/
+@media only screen and (max-width: 450px) {
+	.main h2 {
+		font-size: 20px;
+	}
+}
+
+
+
+/*--------------------------------------------------------------
+#1	header
+--------------------------------------------------------------*/
+@media only screen and (max-width: 767px) {
+	header {
+		height: 520px;
+	}
+
+	header .container .col {
+		height: 520px;
+	}
+
+	header .mouse {
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 450px) {
+	header h1 {
+		font-size: 26px;
+		line-height: 38px;
+	}
+}
+
+
+
+/*--------------------------------------------------------------
+#2	main
+--------------------------------------------------------------*/
+@media only screen and (max-width: 767px) {
+	.main .row .col {
+		margin-bottom: 120px;
+	}
+
+	.main .row .col:last-child {
+		margin-bottom: 0;
+	}
+
+	.main ul li a {
+		padding: 4px 8px;
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#shuffle-wrapper-1 > .col,
+	#shuffle-wrapper-2 > .col {
+		width: 100%;
+	}
+}
+
